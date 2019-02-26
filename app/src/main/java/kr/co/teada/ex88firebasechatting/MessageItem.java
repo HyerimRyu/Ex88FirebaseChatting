@@ -1,6 +1,7 @@
 package kr.co.teada.ex88firebasechatting;
 
 public class MessageItem {
+    //채팅창에서 공통으로 들어가는(반복되는) 요소들
 
     String name;
     String msg;
