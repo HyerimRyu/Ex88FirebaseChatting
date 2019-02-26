@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "346177398948",
+    "firebase_url": "https://fir-chatting-e496b.firebaseio.com",
+    "project_id": "fir-chatting-e496b",
+    "storage_bucket": "fir-chatting-e496b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346177398948:android:65ad96df2dd02807",
+        "android_client_info": {
+          "package_name": "kr.co.teada.ex88firebasechatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346177398948-orro5ak7nq1vii0ns5eo4fu65d1t5cph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCetT1ep1iB1icQyenURGyOJDykFKBdGAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
