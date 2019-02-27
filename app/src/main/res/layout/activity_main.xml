@@ -20,6 +20,8 @@
         android:padding="8dp"
         android:textCursorDrawable="@drawable/et_name_cursor"/>
 
+    
+    <!--ate + 에 추가 창먼저, 그리고 갤러리 오픈-->
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/iv_profile"
         android:layout_width="80dp"
