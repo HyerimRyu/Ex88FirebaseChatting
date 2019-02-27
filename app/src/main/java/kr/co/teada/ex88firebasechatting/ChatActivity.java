@@ -46,7 +46,7 @@ public class ChatActivity extends AppCompatActivity {
 
         etMsg=findViewById(R.id.et);
 
-        //'chat'노드의 참조객체 얻어오기 : onCreate()에서 실행 ****************************************************중요 *******
+        //FB:DB___'chat'노드의 참조객체 얻어오기 : onCreate()에서 실행 ****************************************************중요 *******
         chatRef=FirebaseDatabase.getInstance().getReference("chat");
 
         //'chat'노드에 저장되어 있는 데이터들을 읽어오기 ****************************************************중요 *******

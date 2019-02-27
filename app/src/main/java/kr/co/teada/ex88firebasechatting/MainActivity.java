@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
     }//end of saveData
 
     //액티비티가 처음 시작 할 때 실행 onCreate 할 때
-    void loadData(){
+    void loadData(){ //getSharedPreferences : 객체 얻어오는거야 두번째 인자 mode는 읽고 쓰기 권한 관련된 Mode라고 생각하시면 됩니다. 일단 MODE_PRIVATE만 생각해
         SharedPreferences pref=getSharedPreferences("account", MODE_PRIVATE);
         G.nickName=pref.getString("nickName", null);
         G.profileUrl=pref.getString("profileUrl", null);
